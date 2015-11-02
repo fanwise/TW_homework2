@@ -68,6 +68,67 @@ body {
   font-size: 62.5%;
 }
 
-.head {
-  
+h1 {
+  font-size: 2.5rem;
+  padding: 0.5rem;
 }
+
+h2 {
+  font-size: 1.2rem;
+  padding: 0.2rem;
+}
+
+.head {
+  color: #FFFFFF;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/top.jpg);
+  padding: 0rem 1rem 5rem 1rem;
+}
+
+.float_l {
+  float: left;
+}
+
+.float_r {
+  float: right;
+}
+
+.float_n {
+  clear: both;
+}
+
+.logo {
+  padding-left: 10.5rem;
+  padding-top: 1.3rem;
+  font-size: 3rem;
+}
+
+.login {
+  padding-top: 1.3rem;
+  font-size: 1rem;
+}
+
+.vul {
+  list-style:none;
+}
+
+.title {
+  padding: 15rem 3rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.search {
+  color: #000000;
+  width: 35rem;
+  height: 2rem;
+  padding: 0.5rem;
+  margin: 3rem;
+  opacity: 0.5;
+}
+
+.data {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
+}
+
