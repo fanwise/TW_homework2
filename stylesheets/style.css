@@ -81,7 +81,7 @@ h2 {
 }
 
 h4 {
-  padding: 10px;
+  padding: 4px;
   font-weight: bold;
   font-size: 24px;
 }
@@ -219,9 +219,11 @@ p.num {
 }
 
 p.words {
+  margin-top: 8px;
   padding: 5px;
   font-size: 13px;
   color: #999999; 
+  line-height: 18px;
 }
 
 .margin_center {
@@ -252,12 +254,13 @@ p.words {
   border-width: 1px;
   border-color: #dad9d9;
   position: relative;
-  top: 65px;
+  top: 58px;
   z-index: -1;
 }
 
 .pic1 {
   margin-top: 30px;
+  margin-bottom: 12px;
 }
 
 .row1 {
@@ -265,9 +268,38 @@ p.words {
 }
 
 .col2 {
-  width: 255px;
-  margin-left: 100px;
-  padding: 20px;
+  width: 300px;
+  margin-left: 80px;
+  padding: 10px;
+  margin-bottom: 170px;
+}
+
+.line1 {
+  float: none;
+  display: block;
+  width: 1440px;
+  height: 1px;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: #dad9d9;
+  position: relative;
+  left: -80px;
+  top: 400px;
+  padding-bottom: 30px;
+}
+
+.line {
+  float: none;
+  display: block;
+  width: 1440px;
+  height: 130px;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: #dad9d9;
+  position: relative;
+  left: -80px;
+  top: 85px;
+  padding-bottom: 30px;
 }
 
 .title3 {
@@ -280,8 +312,19 @@ p.words {
 
 .row2 {
   padding: 20px;
-  width: 440px;
+  height: 100px;
+  width: 460px;
   text-align: left;
+}
+
+.pic2 {
+  width: 40px;
+  height: 40px;
+}
+
+.pragh2 {
+  padding-left: 30px;
+  width: 390px;
 }
 
 .radiobutton {
@@ -300,13 +343,3 @@ p.words {
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/bottom.jpg);
 }
 
-.line {
-  width: 1440px;
-  height: 1px;
-  border-top-style: solid;
-  border-width: 1px;
-  border-color: #dad9d9;
-  position: relative;
-  left: -80px;
-  padding-bottom: 30px;
-}
