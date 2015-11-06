@@ -148,6 +148,11 @@ h5 {
   text-align: center;
 }
 
+
+.search::-webkit-input-placeholder { /* WebKit browsers */ 
+color: #FFFFFF; 
+} 
+
 .search {
   width: 510px;
   height: 40px;
@@ -159,6 +164,10 @@ h5 {
   border-bottom-left-radius: 5px;
   color: #FFFFFF;
 }
+
+.search1::-webkit-input-placeholder { /* WebKit browsers */ 
+color: #DDDDDD; 
+} 
 
 .search1 {
   width: 510px;
